@@ -10,7 +10,14 @@ body {
 }
 
 .btn-primary{
-
+    border-radius: 8px;
+    background: #FF900E;
+    border: 0;
+    color: #FFF;
+    padding: 20px 25px;
+    font-size: 1.25rem;
+    font-weight: 600;
+    cursor: pointer;
 }
 
 /* header styles */
@@ -64,4 +71,21 @@ nav a {
 
 .banner-description{
     color:#727272;
+}
+
+.banner img{
+    margin-top: 20px;
+    width:100%;
+}
+
+/* responsive styles */
+
+@media screen and (max-width:576px){
+    header{
+        padding: 20px;
+    }
+    nav{
+        flex-direction: column;
+    }
+    
 }
